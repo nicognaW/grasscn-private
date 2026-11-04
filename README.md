@@ -8,7 +8,7 @@ Launch plan, post copy, video and the tooling that produced it. Kept out of the 
 | --- | --- |
 | Launch video | **Done** — `video/grasscn-launch.mp4` (45.5 s, 1920×1080, 60 fps, H.264 + AAC) |
 | grasscn.dev hosting and `/r/*.json` install links | **Blocking** — owned by a separate session; launch waits on it |
-| Post copy | Drafted (below) |
+| Post copy | Final main post (below); reply 2 to tighten before posting |
 | Launch time | Decided by progress; target a weekday ~8:30 AM PT |
 | `@grasscn` shadcn namespace | Apply after launch; announce as a follow-up |
 | Daily clips (Hotbar, Book, Trading first) | Not started |
@@ -28,14 +28,15 @@ Launch plan, post copy, video and the tooling that produced it. Kept out of the 
 
 ## Post
 
-Main post (video attached, no links):
+Main post (attach `video/grasscn-launch.mp4`, no links; ~275 characters, confirm in X's composer):
 
 > Meet grasscn: pixel-perfect Minecraft UI components for shadcn.
 >
 > → Matched pixel by pixel against the game
-> → Original textures, font and sounds
+> → Original textures, font, sounds
 > → 67 components, from Button to Data Table
 > → Hotbar, HUD, books, signs, maps and trading
+> → More on the way
 >
 > Open source. Links below 👇
 
