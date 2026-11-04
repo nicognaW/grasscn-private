@@ -94,4 +94,5 @@ Scripts use the original scratchpad paths; adjust `L`, `G` and `R` before reusin
 ## Side work in the public repo
 
 - Agent skill packs installed and pushed on branch `ccr-d82793f5-i2uboj` (grill-with-docs and friends; `matt-prototype` / `emil-prototype` renamed to avoid collision).
+- README showcase image (`docs/images/showcase.png`, 3840×2200, homepage hero and first row of examples) committed on the same branch (`73d23c13`). Merge before launch so the GitHub page shows it.
 - Issue [#39](https://github.com/nicognaW/grasscn/issues/39): website generation fails under Bun on Linux in `generate-component-symbols.mjs` (works under Node).
