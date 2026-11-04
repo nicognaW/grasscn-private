@@ -7,6 +7,7 @@ Launch plan, post copy, video and the tooling that produced it. Kept out of the 
 | Item | State |
 | --- | --- |
 | Launch video | **Done** — `video/grasscn-launch.mp4` (45.5 s, 1920×1080, 60 fps, H.264 + AAC) |
+| Share metadata (OG, X card, robots, sitemap, icons) | **Done on branch** `ccr-d82793f5-i2uboj` (`04bca221`), verified on preview `grasscn-oq1c2mv01-nkk.vercel.app`; needs promotion to production. See `metadata/` |
 | grasscn.dev hosting and `/r/*.json` install links | **Blocking** — owned by a separate session; launch waits on it |
 | Post copy | Final main post (below); reply 2 to tighten before posting |
 | Launch time | Decided by progress; target a weekday ~8:30 AM PT |
@@ -95,4 +96,5 @@ Scripts use the original scratchpad paths; adjust `L`, `G` and `R` before reusin
 
 - Agent skill packs installed and pushed on branch `ccr-d82793f5-i2uboj` (grill-with-docs and friends; `matt-prototype` / `emil-prototype` renamed to avoid collision).
 - README showcase image (`docs/images/showcase.png`, 3840×2200, homepage hero and first row of examples) live on `main` (`6f941a77`, cherry-picked from the branch's `73d23c13`).
+- Share metadata on branch `ccr-d82793f5-i2uboj` (`04bca221`): before, the live site had only a title, description and 16px icon. Added metadataBase, canonical, Open Graph and `summary_large_image` on every page (per-page titles for docs and charts), `public/og.png` 2400×1260, robots.txt, sitemap.xml (84 URLs), manifest, favicon.ico, apple-touch-icon, theme color. All 84 pages pass `metadata/check-metadata.mjs`. Before posting: check the card in X's composer after production updates (X caches cards ~7 days per URL).
 - Issue [#39](https://github.com/nicognaW/grasscn/issues/39): website generation fails under Bun on Linux in `generate-component-symbols.mjs` (works under Node).
