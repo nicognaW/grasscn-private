@@ -9,7 +9,7 @@ Launch plan, post copy, video and the tooling that produced it. Kept out of the 
 | Launch video | **Done** — `video/grasscn-launch.mp4` (45.5 s, 1920×1080, 60 fps, H.264 + AAC) |
 | Share metadata (OG, X card, robots, sitemap, icons) | **Done** — on `main` (`04bca221`) and live on grasscn.dev; card confirmed in X's composer (image, title, From grasscn.dev). See `metadata/` |
 | grasscn.dev hosting and `/r/*.json` install links | **Blocking** — owned by a separate session; launch waits on it |
-| Post copy | Final main post (below); reply 2 to tighten before posting |
+| Post copy | Final main post and replies (below) |
 | Launch time | Decided by progress; target a weekday ~8:30 AM PT |
 | `@grasscn` shadcn namespace | Apply after launch; announce as a follow-up |
 | Daily clips (Hotbar, Book, Trading first) | Not started |
@@ -43,7 +43,13 @@ Main post (attach `video/grasscn-launch.mp4`, no links; ~275 characters, confirm
 
 Reply 1: `npx shadcn add https://grasscn.dev/r/button.json` · grasscn.dev · github.com/nicognaW/grasscn
 
-Reply 2: how pixel-perfect is checked — captured references from Minecraft Java 26.2, zero differing RGBA pixels per declared case. Concrete proof from the video: the five grasscn Buttons at scale 3 match the game's title-screen buttons with 0 differing pixels, and the whole browser frame at the cut matches the game frame with 0 differing pixels. Tag @shadcn and @orcdev here.
+Reply 2:
+
+> Built on the @shadcn registry: one command per component, and the code is yours to edit.
+>
+> Hat tip to @orcdev, whose 8bitcn showed a game-styled kit for shadcn can work.
+>
+> Stars and feedback welcome.
 
 Reference patterns: 8bitcn launch (@orcdev, Apr 2025: "Links below 👇", @shadcn reposted with "🎮"); Vercel Labs posts ("Introducing X", → list, `npx` call to action, link in a reply on personal accounts).
 
