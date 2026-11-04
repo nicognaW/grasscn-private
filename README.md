@@ -47,7 +47,7 @@ Reply 2:
 
 > Built on the @shadcn registry: one command per component, and the code is yours to edit.
 >
-> Hat tip to @orcdev, whose 8bitcn showed a game-styled kit for shadcn can work.
+> Inspired by @orcdev's 8bitcn.
 >
 > Stars and feedback welcome.
 
