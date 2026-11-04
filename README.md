@@ -7,7 +7,7 @@ Launch plan, post copy, video and the tooling that produced it. Kept out of the 
 | Item | State |
 | --- | --- |
 | Launch video | **Done** — `video/grasscn-launch.mp4` (45.5 s, 1920×1080, 60 fps, H.264 + AAC) |
-| Share metadata (OG, X card, robots, sitemap, icons) | **Done on branch** `ccr-d82793f5-i2uboj` (`04bca221`), verified on preview `grasscn-oq1c2mv01-nkk.vercel.app`; needs promotion to production. See `metadata/` |
+| Share metadata (OG, X card, robots, sitemap, icons) | **Done** — on `main` (`04bca221`) and live on grasscn.dev. Check the card in X's composer before posting. See `metadata/` |
 | grasscn.dev hosting and `/r/*.json` install links | **Blocking** — owned by a separate session; launch waits on it |
 | Post copy | Final main post (below); reply 2 to tighten before posting |
 | Launch time | Decided by progress; target a weekday ~8:30 AM PT |
