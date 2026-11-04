@@ -45,11 +45,7 @@ Reply 1: `npx shadcn add https://grasscn.dev/r/button.json` · grasscn.dev · gi
 
 Reply 2:
 
-> Built on the @shadcn registry: one command per component, and the code is yours to edit.
->
-> Inspired by @orcdev's 8bitcn.
->
-> Stars and feedback welcome.
+> Thanks @shadcn for the registry that makes this possible, and @orcdev, whose 8bitcn inspired it.
 
 Reference patterns: 8bitcn launch (@orcdev, Apr 2025: "Links below 👇", @shadcn reposted with "🎮"); Vercel Labs posts ("Introducing X", → list, `npx` call to action, link in a reply on personal accounts).
 
